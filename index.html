@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+  </head>
+  
+  <body>
+    <h1 class="titulo">Trabajo Práctico - JavaScript</h1>
+    
+    <div class="bloques"> <!-- BLOQUE 1 -->
+      <h2 class="subtitulos">BLOQUE 1: Introducción a JavaScript</h2>
+      <h3>Antes de comenzar, ¿cómo te llamas?</h3> <!-- Ejercicio 2 -->
+      <button id="ingresarNombreUsuario">Presione para ejecutar</button>
+      <h3>Suma de dos números cualesquiera</h3> <!-- Ejercicio 1 -->
+      <button id="mostrarSuma">Presione para ejecutar</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 2 -->
+      <h2 class="subtitulos">BLOQUE 2: Operadores lógicos y condicionales</h2>
+      <h3>¿Cual es el mayor?</h3> <!-- Ejercicio 1 -->
+      <button id="determinarMayor">Presione para ejecutar</button>
+      <h3>¿Es par o impar?</h3> <!-- Ejercicio 2 -->
+      <button id="esParImpar">Presione para ejecutar</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 3 -->
+      <h2 class="subtitulos">BLOQUE 3: Operadores de asignación y bucles</h2>
+      <h3>Bucle While</h3> <!-- Ejercicio 1 -->
+      <button id="bucleWhileDecremento">Presione para ejecutar</button>
+      <h3>Bucle Do-While</h3> <!-- Ejercicio 2 -->
+      <button id="esMenorQueCien">¿Es menor que 100?</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 4 -->
+      <h2 class="subtitulos">BLOQUE 4: Funciones de JavaScript</h2>
+      <h3>Función Par/Impar con booleanos</h3> <!-- Ejercicio 1 -->
+      <button id="funcionEsPar">Presione para ejecutar</button>
+      <h3>Covertir grados Celsius a Fahrenheit</h3> <!-- Ejercicio 2 -->
+      <button id="funcionCelsiusAFahrenheit">Presione para convertir</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 5 -->
+      <h2 class="subtitulos">BLOQUE 5: Objetos en JavaScript</h2>
+      <h3>Objeto Persona</h3> <!-- Ejercicio 1 -->
+      <button id="imprimirPersona">Presione para ejecutar</button>
+      <h3>Objeto Libro</h3> <!-- Ejercicio 2 -->
+      <button id="imprimirLibro">Presione para ejecutar</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 6 -->
+      <h2 class="subtitulos">BLOQUE 6: Arrays</h2>
+      <h3>Array original y Array modificado</h3> <!-- Ejercicio 1 -->
+      <button id="arrayMultiplicado">Presione para ejecutar</button>
+      <h3>Array primeros diez números pares</h3> <!-- Ejercicio 2 -->
+      <button id="arrayPares">Presione para ejecutar</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 7 -->
+      <h2 class="subtitulos">BLOQUE 7: Introducción al DOM</h2>
+      <h3>Párrafos</h3> <!-- Ejercicio 1 -->
+      <p>Este es el primer párrafo.</p>
+      <p>Este es el segundo párrafo.</p>
+      <p>Este es el tercer párrafo.</p>
+      <button id = "cambiarColorP">Cambiar color a azul</button>
+
+      <h3>Mensaje de alerta</h3> <!-- Ejercicio 2 -->
+      <label>Por favor, ingrese un texto cualquiera: </label>
+      <input id= "textoIngresado" type="text">
+      <button id="mensajeAlerta">Mostrar alerta</button>
+    </div>
+    
+    <div class="bloques"> <!-- BLOQUE 8 -->
+      <h2 class="subtitulos">BLOQUE 8: Eventos en DOM</h2>
+      <h3>Lista de elementos</h3> <!-- Ejercicio 1 -->
+      <ul id="listaConPuntos">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+      </ul>
+
+      <h3>Campo de texto y botones</h3> <!-- Ejercicio 2 -->
+      <input id="textoInput" type="text" placeholder="Por favor, ingrese un texto cualquiera:">
+      <button id="botonDeshabilitar">Deshabilitar campo</button>
+      <button id="botonHabilitar">Habilitar campo</button>
+    </div>
+
+    <div class="bloques"> <!-- BLOQUE 9 -->
+      <h2 class="subtitulos">BLOQUE 9: LocalStorage</h2>
+      <h3>LocalStorage</h3> <!-- Ejercicio 1 -->
+      <form id="formularioEmail">
+        <label>Correo electrónico: </label>
+        <input id="emailInput" type="email" placeholder="example@gmail.com">
+        <button id="botonGuardarCorreo">Guardar correo</button>
+      </form>
+      <div id="emailDisplay"></div>
+      <button id="eliminarEmail" class="eliminarBoton" style="display: none;">Eliminar Correo Guardado</button>
+    </div>
+
+    <script type="module" src="/main.js"></script> <!-- Para enlazar el archivo JS -->
+  </body>
+
+</html>
+
+
+
+<!--  -->

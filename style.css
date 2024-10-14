@@ -1,0 +1,39 @@
+body{
+  background-color: lightgrey;
+  font-family:sans-serif;
+  display: grid;
+  place-items: center; /* Centra horizontal y verticalmente */
+  height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+.titulo{
+  font-weight: bold;
+  color:cornflowerblue;
+  border: 2px solid #000; /* Borde negro de 2px */
+  background-color: #f0f0f0; /* Fondo gris claro */
+  padding: 15px; /* Espacio interno */
+  display: inline-block; /* Hace que el borde se ajuste al tamaño del contenido */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.subtitulos{
+  font-weight: bold;
+  text-align: center;
+  color:darkslategrey;
+}
+
+.bloques {
+  background-color:antiquewhite;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+p {
+  color: black; /* Color inicial del texto*/
+}
